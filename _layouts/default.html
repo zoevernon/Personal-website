@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Zoe Vernon</title>
+		<title>{{ page.title }}</title>
 		<!-- link to main stylesheet -->
 		<link rel="stylesheet" type="text/css" href="/css/main.css">
 	</head>
@@ -14,10 +14,13 @@
     		</ul>
 		</nav>
 		<div class="container">
-    		<div class="blurb">
-        		<h1>Zoe Vernon</h1>
-				<p>Statistics PhD student at UC-Berkeley</p>
-    		</div><!-- /.blurb -->
+			{{ content }}
 		</div><!-- /.container -->
+		<footer>
+	    		<ul>
+	        		<li>Email: <a href="mailto:zoe_vernon@berkeley.edu">zoe_vernon@berkeley.edu</a></li>
+	        		<li><Github: a href="https://github.com/zoevernon">github.com/zoevernon</a></li>
+			</ul>
+		</footer>		
 	</body>
 </html>
