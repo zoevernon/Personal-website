@@ -23,7 +23,7 @@ description              : "Personal webpage"
 url                      : "https://zoevernon.github.io/"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "zoevernon/zoevernon.github.io"
-teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+teaser                   : "/assets/images/profile.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
