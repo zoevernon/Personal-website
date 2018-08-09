@@ -8,3 +8,103 @@ title_separator: "|"
 description: "Personal webpage for Zoe Vernon"
 url: "https://zoevernon.github.io/"
 repository: "zoevernon/zoevernon.github.io"
+words_per_minute: 160
+
+comments:
+  provider  : "staticman_v2"
+staticman:
+  branch    : "master"
+  
+comments:
+  allowedFields      : ["name", "email", "url", "message"]
+  branch             : "master"
+  commitMessage      : "New comment"
+  filename           : "comment-{@timestamp}"
+  format             : "yaml"
+  generatedFields:
+    date:
+      type           : "date"
+      options:
+        format       : "iso8601"
+  moderation         : true
+  path               : "_data/comments/{options.slug}"
+  requiredFields     : ["name", "email", "message"]
+  transforms:
+    email            : md5
+
+# Social Sharing
+twitter:
+  username               : "zo3v3rnon
+facebook:
+  username               :
+  app_id                 :
+  publisher              :
+og_image                 :  # Open Graph/Twitter default site image
+# For specifying social profiles
+# - https://developers.google.com/structured-data/customize/social-profiles
+social:
+  type                   : # Person or Organization (defaults to Person)
+  name                   : # If the user or organization name differs from the site's name
+  links: # An array of links to social media profiles
+
+
+# Analytics
+analytics:
+  provider               :  "google-universal" # false (default), "google", "google-universal", "custom"
+  google:
+    tracking_id          :
+
+
+# Site Author
+author:
+  name             : "Zoe Vernon"
+  avatar           : "/assets/images/profile.png"
+  bio              : "2nd year PhD in Statistics at UC-Berkeley"
+  location         : "Berkeley, CA"
+  employer         :
+  googlescholar    : 
+  email            :
+  uri              :
+  bitbucket        :
+  codepen          :
+  dribbble         :
+  flickr           :
+  facebook         :
+  foursquare       :
+  github           : "zoevernon"
+  google_plus      :
+  keybase          :
+  instagram        :
+  lastfm           :
+  linkedin         :
+  orcid            : 
+  pinterest        :
+  soundcloud       :
+  stackoverflow    : # http://stackoverflow.com/users/123456/username
+  steam            :
+  tumblr           :
+  twitter          : "zo3v3rnon"
+  vine             :
+  weibo            :
+  xing             :
+  youtube          :
+  wikipedia        :
+
+defaults:
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+      layout: single
+    values:
+      read_time: true
+      
+      
