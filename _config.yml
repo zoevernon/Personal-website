@@ -26,6 +26,9 @@ repository               : "zoevernon/zoevernon.github.io"
 teaser                   : "/assets/images/profile.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
+header:
+  image: "/assets/images/bball_landscape.png"
+
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2" "custom"
   disqus:
