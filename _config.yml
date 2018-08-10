@@ -12,20 +12,23 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "contrast"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Site Title"
+title                    : "Zoe Vernon"
 title_separator          : "-"
-name                     : "Your Name"
-description              : "An amazing website."
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+name                     : "Zoe Vernon"
+description              : "Personal webpage"
+url                      : "https://zoevernon.github.io/"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+repository               : "zoevernon/zoevernon.github.io"
+teaser                   : "/assets/images/profile.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
+header:
+  image: "/assets/images/bball_landscape.png"
+
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2" "custom"
   disqus:
@@ -100,11 +103,11 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an amazing person."
-  location         : "Somewhere"
-  email            :
+  name             : "Zoe Vernon"
+  avatar           : "/assets/images/profile.png"
+  bio              : "Statistics PhD Student"
+  location         : "Berkeley, CA"
+  email            : "zoe_vernon@berkeley.edu"
   uri              :
   home             : # null (default), "absolute or relative url to link to author home"
   bitbucket        :
@@ -113,7 +116,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           :
+  github           : "zoevernon"
   gitlab           :
   google_plus      :
   keybase          :
@@ -125,7 +128,7 @@ author:
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. https://stackoverflow.com/users/123456/username)
   steam            : # "steamId" (the last part of your profile url, e.g. https://steamcommunity.com/id/steamId/)
   tumblr           :
-  twitter          :
+  twitter          : "zo3v3rnon"
   vine             :
   weibo            :
   xing             :
