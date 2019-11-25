@@ -14,12 +14,18 @@ Education
 **Bachelor of Arts in Mathematics**, Washington University in St. Louis, Graduated May 2017
 **(Current) Ph.D in Statistics**, University of California, Berkeley, May 2022 (expected)
 
-Experience
+Research
 ------
-Summer 2018: **Graduate Student Researcher**, Department of Statistics, University of California, Berkeley
-  * Working with Professor Haiyan Huang 
-  * Developing a new method for detecting reverse correlation between two sets of gene expression data to detect new potential therapeutic agents for diseases.
+Aug. 2017 - Present: **Graduate Student Researcher**, Department of Statistics, University of California, Berkeley
+  * Advised by Professor Haiyan Huang and co-advised by Professor Peter Bickel.
+  * Developing methods to address issues that arise in analyzing genomic and biomedical data. 
+  * Developed a robust count-based statistic to measure negative dependency between gene expression profiles to assist in drug discovery.
+  * Working to extend the semi-supervised learning technique, Gene-Fishing, to be applicable to single cell RNA sequence data.
+  * Analyzing MRI and genomic data from multiple sclerosis (MS) patients to improve clinical experience.  
 
+Summer 2019: **Intern at Genentech** 
+  * Implemented predictive models of cancer patient survival for various levels of data aggregation using random forest and penalized regression.
+  
 Summer 2016: **Participant in Summer Institute in Biostatistics, North Carolina State University**
 
 Jan 2014 - May 2015: **Research Assistant**, Winthrop University
@@ -28,6 +34,9 @@ Jan 2014 - May 2015: **Research Assistant**, Winthrop University
 
 Summer 2014: **Participant in Research Experience of Undergraduates (REU)**, Winthrop University
 
+Teaching
+------
+**(Current, Fall 2018) Graduate Student Instructor (GSI)** for STAT 215A - Statistical Models: Theory and Application I, University of California, Berkeley
 
 Publications
 ------
@@ -39,11 +48,14 @@ Bradley L, Moan E, **Vernon Z**. Fusion in Card Collecting Games: A Probable Out
 
 Talks
 ------
+**Leveraging molecular data in drug discovery using count statistics**, INFORMS, Seatlle, WA, 2019.
+
 **Combinatorics of Card Collecting Games**, Showcase of Undergraduate Research and Endeavors, Rock Hill, SC, 2015
 
 **H-representation of the Kimura-3 polytope**, NIMBioS Undergraduate Research Conference, Knoxville, TN, 2014
 
-Teaching
+Leadership
 ------
-**(Current, Fall 2018) Graduate Student Instructor (GSI)** for STAT 215A - Statistical Models: Theory and Application I, University of California, Berkeley
-  
+**Statistics Graduate Student Association co-President**, University of California, Berkeley.  
+  * 2019-2020 school year.
+  * Responsible for coordinating social and academic committees.  
