@@ -53,7 +53,7 @@ CHANGE THIS TO THE SPURS, so it can be a different team
 
 If your favorite thing to do is watch an offense predicated around the three pointer, you could see which WNBA teams are most like the Rockets in terms of their shot distribution (by selecting FGA from various distances).  In that case you may want to tune into the New York Liberty of the Seattle Storm.  
 
-![Rockets comparision](/figures/rockets_fgal.png)
+![Rockets comparision](/figures/rockets_fga.png)
 
 However, be warned about the Liberty, because although they take a lot of threes, they don't shoot a high percentage.  In fact, if we include FG% statistics in addition to the FGA stats, we see that the Liberty are now least like the Rockets... try that for yourself in the app if you want to see the change.  
 
