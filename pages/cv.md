@@ -11,9 +11,11 @@ redirect_from:
 
 Education
 ------
-**Bachelor of Arts in Mathematics**, Washington University in St. Louis, Graduated May 2017
+**Bachelor of Arts in Mathematics**, Washington University in St. Louis, Graduated May 2017.
 
-**(Current) Ph.D in Statistics**, University of California, Berkeley, May 2022 (expected)
+**Masters of Arts in Statistics**, University of California, Berkeley, Graduated May 2020.
+
+**(Current) Ph.D Candidate in Statistics**, University of California, Berkeley, May 2021 (expected).
 
 Research
 ------

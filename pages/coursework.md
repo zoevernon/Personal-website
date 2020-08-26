@@ -7,6 +7,10 @@ author_profile: true
 
 {% include base_path %}
 
+**Spring 2020**
+* STAT 299: Masters Capstone (taught by Thomas Bengtsson and Libor Pospisil)
+* CMPBIO 293:     Doctoral Seminar in Computational Biology (taught by Lisa Barcellos)
+
 **Fall 2019**
   * STAT 272: Statistical Consulting (taught by Philip Stark and Lisa Goldberg)
   * CMPBIO 293: 	Doctoral Seminar in Computational Biology (taught by Nilah Ioannidis and Priya Moorjani)
