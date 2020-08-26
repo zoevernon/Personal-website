@@ -3,15 +3,16 @@ title: 'Comparing the NBA and WNBA'
 date: 2020-08-10
 permalink: /posts/2020/08/nba-wnba-comparison/
 ---
-# Which WNBA team should I watch? 
-## Do you like the offensive rebounding? How about the mid range game? Are you a fan of the Spurs? Or wish you could watch the 2010 version? 
-In this post I compare the WNBA to the NBA on a number of statistics throughout the last 10 seasons.   To address these questions I created a Shiny app hosted [here](https://zoevernon.shinyapps.io/nba_wnba_comparison/).  In the you can compare any teams from 2010-2020 in both the NBA and WNBA for a number of different statistical categories as well as see the change over time in each league.  In addition to comparing statistics one at a time you are able to choose a NBA team from any season starting with 2010-11 and find which WNBA teams are most similar to that team based on a set of statistics of your choice.  
+
+Do you like the offensive rebounding? How about the midrange game? Are you a fan of the Rockets? Or wish you could watch the 2014-15 Warriors again? Well, I'm here to tell you that you might enjoy watching the WNBA and  help find your potential new favorite team! 
+
+In addition to matching NBA teams with comparable teams in the WNBA I compare the leagues in a number of statistics throughout the last 10 seasons.   To address these questions I created a Shiny app hosted [here](https://zoevernon.shinyapps.io/nba_wnba_comparison/).  In the app you can compare any team from 2010-2020 in both the NBA and WNBA for a number of different statistical categories as well as see the change over time in each league.  
 
 I present some of the interesting obseravations I found from using the app in this post, but encourage you to play with it on your own!  
 
 
 ## Differences between the leagues 
-First, I wanted to figure out how the WNBA differs from the NBA across the last 10 seasons.   The two leagues have largely followed similar trajectories (i.e. more threes and less offensive rebounds) but there are many differences between them, some surprising and others more obvious. 
+First, I wanted to figure out how the WNBA differs from the NBA across the last 10 seasons.  The two leagues have largely followed similar trajectories (i.e. more threes and less offensive rebounds) but there are many differences between them, some surprising and others more obvious. 
 
 After watching a couple WNBA games one of the most apparent distinctions is the shot distribution.  Most WNBA teams seem to take far more midrange shots than is customary in the present day NBA, and that is exactly what we see in the data.  Given that WNBA games are shorter than the NBA we compare the shot distributions between the two leagues by looking at the number of shot attempts from a given location per possession.  This allows us to look at differences without needing to adjust for time or pace.  
 
@@ -28,11 +29,13 @@ This increase in midrange shot taking is coupled with less shot attempts, in the
  <!--- <iframe width="800" height="500" frameborder="0" scrolling="no" src="//plotly.com/~zo3v3rnon/5.embed"></iframe> --->
 <iframe width="800" height="500" frameborder="0" scrolling="no" src="//plotly.com/~zo3v3rnon/7.embed"></iframe>
 
-At this point the obvious question to ask is why is this the case?  Is the WNBA less sold on analytics, which has shown the superiority of the three pointer?  Or is there a fundamental difference between the leagues that makes threes less valuable in the WNBA?  
+There are a number of other statistics which differ between the leagues including, FG % (higher in the NBA), FT % (higher in the WNBA), offensive rebound % (higher in the WNBA), and pace (higher in the NBA).  I encourage you to explore the season by season distributions and overall trends of those statistics.  
 
-Without knowing the extent to which WNBA teams have analytics departments, I think the answer is falls somewhere in between.  Looking at the difference in 3FG % between the two leagues we can see that WNBA players shoot much worse than NBA players from 3, however, they also shoot worse from 2.  It seems that only 
+ <!--- At this point the obvious question to ask is why is this the case?  Is the WNBA less sold on analytics, which has shown the superiority of the three pointer?  Or is there a fundamental difference between the leagues that makes threes less valuable in the WNBA?  --->
 
-Across the board NBA players, shoot a higher percentage from the field.   However, WNBA players are much better FT shooters.   When it comes to 3 pointers we can see the impact of the extension of the 3 point line in the WNBA before the 2013 season.    Prior to the change, the WNBA was not only shooting more threes than NBA teams at the time, but they were shooting better from three.  Over time WNBA players have adjusted and despite, a slower increase in 3 pointers per possession, they have dramatically increased 3 point percentage over the last couple years.  
+ <!--- Without knowing the extent to which WNBA teams have analytics departments, I think the answer is falls somewhere in between.  Looking at the difference in 3FG % between the two leagues we can see that WNBA players shoot much worse than NBA players from 3, however, they also shoot worse from 2.  It seems that only --->
+
+ <!--- Across the board NBA players, shoot a higher percentage from the field.   However, WNBA players are much better FT shooters.   When it comes to 3 pointers we can see the impact of the extension of the 3 point line in the WNBA before the 2013 season.    Prior to the change, the WNBA was not only shooting more threes than NBA teams at the time, but they were shooting better from three.  Over time WNBA players have adjusted and despite, a slower increase in 3 pointers per possession, they have dramatically increased 3 point percentage over the last couple years.  --->
 
 <!---  <iframe width="800" height="500" frameborder="0" scrolling="no" src="//plotly.com/~zo3v3rnon/13.embed"></iframe>  --->
 
@@ -42,24 +45,23 @@ Across the board NBA players, shoot a higher percentage from the field.   Howeve
 
 <!--- <iframe width="800" height="500" frameborder="0" scrolling="no" src="//plotly.com/~zo3v3rnon/15.embed"></iframe>  --->
 
-## Comparing the teams
-Now for the fun part! If you're a fan of the Bucks I am hoping to tell you which WNBA team you might enjoy watching.  Or maybe you love to watch the Rockets take threes?  How about you just miss watching the 2014-15 Warriors offense, the [app](https://zoevernon.shinyapps.io/nba_wnba_comparison/) can help you find the best fit in the WNBA based on the statistics that you care about.   Below are a couple examples.  
+## Which WNBA team should I root for?
+The [app](https://zoevernon.shinyapps.io/nba_wnba_comparison/) can help you find the best fit in the WNBA based on the statistics that you care about for your favorite NBA team.  Note, that as we see above the leagues are quite different, so although comparing them is not perfect it's still a fun!   Below are a couple examples.  
 
-### I'm a Bucks fan
-Let's say I want to see which WNBA teams play most like the Bucks across all the statistical categories we have available.   Then we would see that the Chicago Sky are most similar, followed by the Seattle Storm and the LA Sparks.   In general, the better WNBA teams are more similar to the Bucks and the worse teams are less similar.   
+### The Milwaukee Bucks
+Let's say I want to see which WNBA teams play most like the Bucks across all the statistical categories we have available.   Then we would see that the Chicago Sky are most similar, followed by the Las Vegas Aces and the Seattle Storm.   In general, the better WNBA teams are more similar to the Bucks and the worse teams are less similar.   
 
 ![Bucks comparision](/figures/bucks_all.png)
 
-### I love to watch a team that shoots a lot of threes
-CHANGE THIS TO THE SPURS, so it can be a different team 
-
-If your favorite thing to do is watch an offense predicated around the three pointer, you could see which WNBA teams are most like the Rockets in terms of their shot distribution (by selecting FGA from various distances).  In that case you may want to tune into the New York Liberty of the Seattle Storm.  
+### The Houston Rockets
+If your favorite thing to do is watch an offense predicated around the three pointer, you could see which WNBA teams are most like the Rockets in terms of their shot distribution (by selecting FGA from various distances).  In that case you may want to tune into the New York Liberty or the Connecticut Sun, but definitely not the Aces.  
 
 ![Rockets comparision](/figures/rockets_fga.png)
 
-However, be warned about the Liberty, because although they take a lot of threes, they don't shoot a high percentage.  In fact, if we include FG% statistics in addition to the FGA stats, we see that the Liberty are now least like the Rockets... try that for yourself in the app if you want to see the change.  
+However, be warned about the Liberty, because although they take a lot of threes, they don't shoot a high percentage.  In fact, if we include FG% statistics in addition to the FGA stats, we see that the Liberty are one of the similar teams to the Rockets... try that for yourself in the app if you want to see the change.  
 
-### My favorite offense ever was the Warriors in 2014-15
-As a final example, let's say that you just loved watching the Warriors offense on the way to the first title in their recent run, because I mean who didn't? In that case you again would want to watch Chicago Sky or the Seattle Storm.  
+### The 2014-15 Warriors
+As a final example, let's say that you just loved watching the Warriors offense on the way to the first title in their recent run, because I mean who didn't? In that case tune in the Storm, Sky, or Sparks.  
 
 ![Warriors comparision](/figures/warriors_off.png)
+
