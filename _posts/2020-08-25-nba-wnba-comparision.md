@@ -6,7 +6,7 @@ permalink: /posts/2020/08/nba-wnba-comparison/
 
 Do you like the offensive rebounding? How about the midrange game? Are you a fan of the Rockets? Or wish you could watch the 2014-15 Warriors again? Well, I'm here to tell you that you might enjoy watching the WNBA and  help find your potential new favorite team! 
 
-In addition to matching NBA teams with comparable teams in the WNBA I compare the leagues in a number of statistics throughout the last 10 seasons.   To address these questions I created a Shiny app hosted [here](https://zoevernon.shinyapps.io/nba_wnba_comparison/).  In the app you can compare any team from 2010-2020 in both the NBA and WNBA for a number of different statistical categories as well as see the change over time in each league.  
+In addition to matching NBA teams with comparable teams in the WNBA I compare the leagues in a number of statistics throughout the last 10 seasons.   To address these questions I created a Shiny app hosted [**here**](https://zoevernon.shinyapps.io/nba_wnba_comparison/).  In the app you can compare any team from 2010-2020 in both the NBA and WNBA for a number of different statistical categories as well as see the change over time in each league.  
 
 I present some of the interesting obseravations I found from using the app in this post, but encourage you to play with it on your own!  
 
@@ -18,16 +18,20 @@ After watching a couple WNBA games one of the most apparent distinctions is the 
 
 Using data from [stats.nba.com](stats.nba.com) and [stats.wnba.com](stats.wnba.com), we see in the figure below that every WNBA team in the 2020 season take more midrange shots (5 - 19 feet) than the average NBA team in the 2019-20 season.  The New York Liberty take by far the least in the mid range while the Las Vegas Aces, with A'ja Wilson and their interior dominance, take over 0.4 shots per possession from these distances.  In the NBA San Antonio are the only team that take more than 0.3 shots per possession of their shots from 5 - 19 feet, and the Houston Rockets take only 0.15.  
 
-<iframe width="800" height="500" frameborder="0" scrolling="no" src="//plotly.com/~zo3v3rnon/1.embed"></iframe>
+![Midrange distributions](/figures/midrange_dist.png)
+Note, an interactive version of this plot where you can see where all teams fall on the distribution is in the Shinny app.  For purposes of formatting I made a static version for this post.  
+ <!---<iframe width="800" height="500" frameborder="0" scrolling="no" src="//plotly.com/~zo3v3rnon/1.embed"></iframe>--->
 
 In addition to looking at how the distributions differ between teams this season, I looked at the change over the last 10 seasons.  Here we see that the reduction in midrange shots has occurred much more dramatically in the NBA than the WNBA.  
 
-<iframe width="800" height="500" frameborder="0" scrolling="no" src="//plotly.com/~zo3v3rnon/3.embed"></iframe>
+ <!---<iframe width="800" height="500" frameborder="0" scrolling="no" src="//plotly.com/~zo3v3rnon/3.embed"></iframe>--->
+![Midrange by year](/figures/midrange_by_year.png)
 
 This increase in midrange shot taking is coupled with less shot attempts, in the WNBA, from three point range.  Below, we see the trend in 3 point attempts per possession over time.   To see the distribution for the 2020 WNBA and 2019-20 NBA seasons check [Shiny app](https://zoevernon.shinyapps.io/nba_wnba_comparison/).    Prior to moving the three point line back for the 2013 season, WNBA teams were taking more 3FGA per possession than NBA team on average, but over the last decade the increase in three point attempts in the NBA has been much more dramatic.    
  
+ ![Three pointers](/figures/three_attempted_by_year.png)
  <!--- <iframe width="800" height="500" frameborder="0" scrolling="no" src="//plotly.com/~zo3v3rnon/5.embed"></iframe> --->
-<iframe width="800" height="500" frameborder="0" scrolling="no" src="//plotly.com/~zo3v3rnon/7.embed"></iframe>
+ <!---<iframe width="800" height="500" frameborder="0" scrolling="no" src="//plotly.com/~zo3v3rnon/7.embed"></iframe>--->
 
 There are a number of other statistics which differ between the leagues including, FG % (higher in the NBA), FT % (higher in the WNBA), offensive rebound % (higher in the WNBA), and pace (higher in the NBA).  I encourage you to explore the season by season distributions and overall trends of those statistics.  
 
