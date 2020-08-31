@@ -4,14 +4,14 @@ date: 2020-08-10
 permalink: /posts/2020/08/nba-wnba-comparison/
 ---
 
-Do you like the offensive rebounding? How about the midrange game? Are you a fan of the Rockets? Or wish you could watch the 2014-15 Warriors again? Well, I'm here to tell you that you might enjoy watching the WNBA and help find your potential new favorite team! 
+Do you like offensive rebounding? How about the midrange game? Well, I'm here to tell you that you might enjoy watching the WNBA and help find your potential new favorite team based on your NBA preferences! 
  
-In addition to matching NBA teams with comparable teams in the WNBA, I compare the leagues in a number of statistics throughout the last 10 seasons.   To address these questions I created a Shiny app hosted [**here**](https://zoevernon.shinyapps.io/nba_wnba_comparison/).  In the app you can compare any team from 2010-2020 in both the NBA and WNBA for a number of different statistical categories as well as see the change over time in each league.  
+In addition to matching NBA teams with comparable teams in the WNBA, I compare the leagues in a number of statistics throughout the last 10 seasons.   To address these questions I created a Shiny app hosted [***here***](https://zoevernon.shinyapps.io/nba_wnba_comparison/).  In the app you can compare any team from 2010-2020 in both the NBA and WNBA for a number of different statistical categories as well as see the change over time in each league.  
  
 I present some of the interesting observations I found from using the app in this post, but encourage you to play with it on your own!  
 
 
-## Differences between the leagues 
+## Statistical differences between the leagues 
 First, I wanted to figure out how the WNBA differs from the NBA across the last 10 seasons.  The two leagues have largely followed similar trajectories (i.e. more threes and less offensive rebounds) but there are many differences between them, some surprising and others more obvious. 
  
 After watching a couple WNBA games one of the most apparent distinctions is the shot distribution.  Most WNBA teams seem to take far more midrange shots than is customary in the present day NBA, and that is exactly what we see in the data.  Given that WNBA games are shorter than the NBA, we compare the shot distributions between the two leagues by looking at the number of shot attempts from a given location per possession.  This allows us to look at differences without needing to adjust for time or pace.  
@@ -19,7 +19,7 @@ After watching a couple WNBA games one of the most apparent distinctions is the 
 Using data from [stats.nba.com](stats.nba.com) and [stats.wnba.com](stats.wnba.com), we see in the figure below that every WNBA team in the 2020 season took more midrange shots (5 - 19 feet) than the average NBA team in the 2019-20 season.  The New York Liberty took by far the least in the mid range while the Las Vegas Aces, with A'ja Wilson and their interior dominance, took over 0.4 shots per possession from these distances.  In the NBA, San Antonio is the only team that took more than 0.3 shots per possession of their shots from 5 - 19 feet, and the Houston Rockets took only 0.15.  
 
 ![Midrange distributions](/figures/midrange_dist.png)
-Note, an interactive version of this plot where you can see where all teams fall on the distribution is in the Shinny app.  For purposes of formatting, I made a static version for this post.  
+Note, an interactive version of this plot that allows the user to see where all teams fall on the distribution is in the Shinny app.  For purposes of formatting, I made a static version for this post.  
 
  <!---<iframe width="800" height="500" frameborder="0" scrolling="no" src="//plotly.com/~zo3v3rnon/1.embed"></iframe>--->
 
@@ -51,10 +51,10 @@ This increase in midrange shot taking is coupled with fewer shot attempts, in th
 <!--- <iframe width="800" height="500" frameborder="0" scrolling="no" src="//plotly.com/~zo3v3rnon/15.embed"></iframe>  --->
 
 ## Which WNBA team should I root for?
-The [app](https://zoevernon.shinyapps.io/nba_wnba_comparison/) can help you find the best fit in the WNBA based on the statistics that you care about for your favorite NBA team.  Note that as we see above the leagues are quite different, so although comparing them is not perfect, it's still fun!   Below are a few examples.  
+The [app](https://zoevernon.shinyapps.io/nba_wnba_comparison/) can help you find the best fit in the WNBA based on your favorite NBA team, and the statistical categories you care about.  We saw in the previous section that the leagues are quite different, so the comparison is not perfect, but it's still fun!   Below are a few examples.  
 
 ### The Milwaukee Bucks
-Let's say I want to see which WNBA teams play most like the Bucks across all the statistical categories we have available.   Then we would see that the Chicago Sky are most similar, followed by the Las Vegas Aces and the Seattle Storm.   In general, the better WNBA teams are more similar to the Bucks and the worse teams are less similar.     
+Let's say I want to see which WNBA teams play most like the Bucks across all the statistical categories included in this analysis.   Then we find that the Aces are most similar, followed by the Chicago Sky (who just had two key players leave the bubble, Diamond DeShields and Azurá Stevens) and the Seattle Storm.  In general, the better WNBA teams are more similar to the Bucks and the worse teams are less similar.     
 
 ![Bucks comparision](/figures/bucks_all.png)
 
@@ -63,10 +63,10 @@ If your favorite thing to do is watch an offense predicated around the three poi
 
 ![Rockets comparision](/figures/rockets_fga.png)
 
-However, be warned about the Liberty, because although they take a lot of threes, they don't shoot a high percentage.  In fact, if we include FG% statistics in addition to the FGA stats, we see that the Liberty are one of the least similar teams to the Rockets... try that for yourself in the app if you want to see the change.  
+However, be warned about the Liberty, because although they take a lot of threes, they don't shoot a high percentage.  In fact, if we include FG% statistics in addition to the FGA stats, we see that the Liberty are one of the least similar teams to the Rockets... try that for yourself if you want to see the change.  
 
 ### The 2014-15 Warriors
-As a final example, let's say that you just loved watching the Warriors offense on the way to the first title in their recent run, because I mean who didn't? In that case tune in the Storm, Sky, or Sparks.  
+As a final example, let's say that you just loved watching the Warriors offense on the way to the first title in their recent run, because I mean who didn't? In that case try to catch the Storm, Sky, or Sparks.  
 
 ![Warriors comparision](/figures/warriors_off.png)
 
