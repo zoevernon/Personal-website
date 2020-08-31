@@ -1,6 +1,6 @@
 ---
 title: 'Comparing the NBA and WNBA'
-date: 2020-08-10
+date: 2020-08-30
 permalink: /posts/2020/08/nba-wnba-comparison/
 ---
 
