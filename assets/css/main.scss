@@ -5,11 +5,14 @@
 @charset "utf-8";
 
 $link-color: black;
-.archive__item a {
-    text-decoration: none;
-}
-
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
+.archive__item a {
+    text-decoration: none;
+}
+
+.page__footer {
+    background-color: #99badd;
+}
